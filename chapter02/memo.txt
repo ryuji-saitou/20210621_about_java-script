@@ -1,0 +1,48 @@
+■変数の書き方(Ruby)
+hello = "hello world"
+puts hello
+
+■変数の書き方(JavaScript)
+let hello = "hello world";
+alert(hello):
+
+■四則演算/文字列の結合
+足し算 = +
+引き算 = -
+掛け算 = *
+割り算 = /
+・alert(4 + 3);
+・alert("hello" + "world" + " (文字列結合ver.)")
+
+■条件分岐の書き方
+if(条件1){
+  処理1
+} else {
+  処理2
+}
+
+if(条件1){
+  処理1
+} else if(条件2){
+  処理2
+} else{
+  処理3
+}
+
+■繰り返し処理の書き方
+1..while文(条件がtrueの間、繰り返し処理を実行)
+while(条件){
+  処理
+}
+
+2..do..while文(条件のtrue・falseに関わらず最低1回は必ず処理が行われる)
+do{
+  最低1回は行われる処理
+}while(条件){
+  処理
+}
+
+3..for文(決められた回数の処理を繰り返す)
+for(初期値; 条件; 増減値){
+  繰り返し処理
+}
